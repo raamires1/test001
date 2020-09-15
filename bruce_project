@@ -1,0 +1,13 @@
+def positiveAndNegative(number):
+    if number == 0:
+        print(f"Zero")
+    else:
+        if number > 0:
+            print(f"{number} is positive")
+        else:
+            print(f"{number} is negative")
+
+
+while True:
+    numbers = int(input("Type a number: "))
+    positiveAndNegative(numbers)
